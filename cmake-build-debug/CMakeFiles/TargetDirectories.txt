@@ -1,0 +1,3 @@
+D:/clion project/sph1.0.1/cmake-build-debug/CMakeFiles/sph1_0_1.dir
+D:/clion project/sph1.0.1/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/clion project/sph1.0.1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

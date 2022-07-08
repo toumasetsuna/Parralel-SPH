@@ -1,0 +1,3 @@
+D:\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\sph1_0_1.dir/objects.a
+D:\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\sph1_0_1.dir/objects.a @CMakeFiles\sph1_0_1.dir\objects1.rsp
+D:\CLion\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\sph1_0_1.dir/objects.a -Wl,--no-whole-archive -o sph1_0_1.exe -Wl,--out-implib,libsph1_0_1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sph1_0_1.dir\linklibs.rsp
