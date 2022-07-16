@@ -1,0 +1,12 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  D:\vsProject\CudaRuntime1\CudaRuntime1>"D:\CUDA Development\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64" -x cu   -I"D:\CUDA Development\include" -I"D:\CUDA Development\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o D:\vsProject\CudaRuntime1\CudaRuntime1\x64\Debug\kernel.cu.obj "D:\vsProject\CudaRuntime1\CudaRuntime1\kernel.cu" 
+D:\vsProject\CudaRuntime1\CudaRuntime1\kernel.cu(287): warning #177-D: variable "size_neighbour" was declared but never referenced
+  
+  kernel.cu
+D:\vsProject\CudaRuntime1\CudaRuntime1\kernel.cu(101): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\vsProject\CudaRuntime1\CudaRuntime1\kernel.cu(102): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\vsProject\CudaRuntime1\CudaRuntime1\kernel.cu(103): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+    正在创建库 D:\vsProject\CudaRuntime1\x64\Debug\CudaRuntime1.lib 和对象 D:\vsProject\CudaRuntime1\x64\Debug\CudaRuntime1.exp
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  CudaRuntime1.vcxproj -> D:\vsProject\CudaRuntime1\x64\Debug\CudaRuntime1.exe
